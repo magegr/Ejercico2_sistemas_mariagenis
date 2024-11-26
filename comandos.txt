@@ -7,4 +7,4 @@ cat anillo.txt | grep Mordor.$
 cat anillo.txt | grep -w "[qf]ue "
 cat anillo.txt | grep -I -B 2 "elfo"
 cat anillo.txt | grep -A 1 "compañía"
-cat anillo.txt | grep Gandalf | grep Gris
+grep -i '\bGandalf\b' anillo.txt | grep -i '\bGris\b'
